@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+}
+.menu li {
+    list-style: none;
+} 
+.menu a{
+    text-decoration: none; 
+    color: white  ;
+}
+.menu{
+    display: flex;
+    gap: 30px;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    padding: 15px 0;
+}
+.headercontaiener{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+.text{
+    width: 743px;
+    margin: 184px 349px;
+    text-align: center;
+    font-size: 70px;
+}
+.doda{
+    width: 1240px; 
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 60px;
+}
+.bola{
+    width: 393px;
+}
